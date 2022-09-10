@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "name": "(lldb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "enter program name, for example ${workspaceFolder}/a.out",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": true,
+      "externalConsole": false,
+      "cwd": "/Users/macgeargear/dev/USACO/Bronze",
+      "program": "/Users/macgeargear/dev/USACO/Bronze/build/Debug/outDebug",
+      "MIMode": "gdb"
+    }
+  ],
+  "version": "2.0.0"
+}
