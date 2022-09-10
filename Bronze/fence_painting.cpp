@@ -10,7 +10,8 @@ int main() {
 
 	int total = (b-a) + (d-c);
 	int interesct = max(min(b,d) - max(a,c), 0); // subtract the interesction
-	return total - interesct;
+	int ans = total - interesct;
+	cout << ans << "\n";
 
 	// a b
 	// 7 10
